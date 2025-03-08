@@ -13,7 +13,7 @@ const Home = () => {
     return (
         user && (
             <div>
-                <p>{user.data.first_name}</p>
+                <p>this is the my {user.data.first_name}</p>
                 <button onClick={handleLogout}>logout</button>
             </div>
         )
